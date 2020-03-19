@@ -1,0 +1,4 @@
+1. Create a mapper and reducer python file
+2. Test locally using echo "sample string" | <mapper directory>
+3. Add the input file to your hadoop directory
+4. Run the jar command to run the map reduce job

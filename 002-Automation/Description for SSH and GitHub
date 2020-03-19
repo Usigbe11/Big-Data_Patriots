@@ -1,0 +1,47 @@
+## How to Use SSH
+
+## To Install Package Lists
+sudo apt-get install
+
+## To Update Package Lists
+sudo apt-get update
+
+## To install SSH server
+sudo apt-get install openssh-server
+
+## To check the SSH server status
+sudo service ssh status
+
+# To generate encryption/security keys and protect against having to re-enter passwords 
+ssh-keygen
+
+## To discover IP address of the machine
+ip a
+
+## To SSH/remotely access server of a machine
+ssh 'username'@ipaddress
+
+## To Start/Stop the SSH service 
+sudo service ssh start/stop
+
+
+
+##GIT COMMANDS OF NOTE
+
+git init: To initialise a git repository for a new or existing project.
+
+git clone: To copy a git repository from remote source, also sets the remote to original source so that you can pull again.
+
+git status:To check the status of files you’ve changed in your working directory, i.e, what all has changed since your last commit.
+
+git add: adds changes to stage/index in your working directory.
+
+git commit: commits your changes and sets it to new commit object for your remote.
+
+git push origin master: Push your changes to remote. If you have added and committed your changes and you want to push them. Or if your remote has updated and you want those latest changes.
+
+git pull origin master: Pull your changes to remote. If you have added and committed your changes and you want to push them. Or if your remote has updated and you want those latest changes. 
+
+git branch: Lists branches
+
+git merge: Merge two branches you were working on. 

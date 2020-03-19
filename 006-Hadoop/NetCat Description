@@ -1,0 +1,16 @@
+Netcat
+------
+
+Use the following format to communicate between Local Machine and a Virtual Machine
+
+On the Virtual Machine- nc <IP Address of Local Machine> <Port>
+On the Local Machine- nc -l <Port>
+
+Use the following format to communicate between 2 Virtual Machines
+
+sudo service ssh start
+ssh-keygen
+On VM1- ssh "user@IP Address of VM2"
+On VM1- nc  localhost <Port>
+On VM2- nc -l <Port>
+sudo service ssh stop
