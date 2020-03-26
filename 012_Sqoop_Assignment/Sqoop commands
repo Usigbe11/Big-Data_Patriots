@@ -1,0 +1,4 @@
+sqoop import --connect jdbc:mysql://localhost/BigData --username fieldemployee --password 'Password' --table engineers --target-dir hdfs://localhost:9000/sqoop-imports
+
+sqoop export --connect jdbc:mysql://localhost/BigData --username fieldemployee --password 'Password' --table hdfs_export --fields-terminated-by '\t' --lines-terminated-by '\n' --export-dir hdfs://localhost:9000/sqoop_export
+

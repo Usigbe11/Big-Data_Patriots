@@ -1,0 +1,3 @@
+sqoop import --connect jdbc:mysql://localhost/BigData --username fieldemployee --password 'Password' --table hdfs_export --target-dir /user/hive/warehouse/bigdata.db/hive_table -m 1
+
+sqoop export --connect jdbc:mysql://localhost/BigData --username fieldemployee --password 'password' --table employee --export-dir /user/hive/warehouse/engineers --input-fields-terminated-by '\001' -m 1

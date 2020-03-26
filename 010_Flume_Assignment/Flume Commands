@@ -1,0 +1,7 @@
+## To save messages on HDFS using Flume
+flume-ng agent --name agent --conf-file flume-agent -Dflume.root.logger=INFO,console
+
+## To save a file on HDFS Using Flume
+flume-ng agent --name agent --conf-file flume-agent -Dflume.root.logger=INFO,console
+
+
