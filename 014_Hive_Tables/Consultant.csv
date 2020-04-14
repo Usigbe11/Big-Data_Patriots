@@ -1,0 +1,11 @@
+id,name,email,phone,city,department_name
+1,Rahib,rahib@enhanceit,12345,Marietta,Cyber Security
+2,Aashish,aashish@enhanceit,23456,Marietta,Sales
+3,Tammy,tammy@enhanceit,34567,Marietta,Personnel
+4,Cesar,cesar@enhanceit,45678,Marietta,Human Resources
+5,Jessica,jessica@enhanceit,56789,Marietta,Networking
+6,Praketa,praketa@enhanceit,67890,Atlanta,Big Data
+7,Usi,usi@enhanceit,98765,Atlanta,Sports and Fitness
+8,Israel,israel@enhanceit,98765,Atlanta,Procurement
+9,Oscar,oscar@enhanceit,87654,Atlanta,Cloud Solutions
+10,Elijah,elijah@enhanceit,76543,Atlanta,Cleaning

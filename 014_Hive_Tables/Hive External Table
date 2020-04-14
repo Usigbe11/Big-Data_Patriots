@@ -1,0 +1,9 @@
+CREATE EXTERNAL TABLE consultant(id varchar(255), name varchar(255), email varchar(255), phone varchar(255), city varchar(255), department_name varchar(255))
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ','
+LOCATION '/tables'
+tblproperties ("skip.header.line.count"="1");
+
+CREATE EXTERNAL TABLE department(id varchar(255), department_name varchar(255), consultant_id varchar(255), manager varchar(255), tech_manager varchar(255))
+ROW FORMAT SERDE 'org.apache.hive.hcatalog.data.JsonSerDe'
+LOCATION '/json';

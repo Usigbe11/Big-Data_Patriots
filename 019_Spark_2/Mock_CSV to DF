@@ -1,0 +1,13 @@
+f =open("/home/fieldemployee/MOCK_DATA.csv",'r')
+tablelist = f.readlines()
+mytable= []
+
+for line in tablelist:
+mytable.append([line])
+
+rdd_table = sc.parallelize(mytable)
+df_table = rdd_table.toDF()
+
+
+df_table.collect()
+df_table.show

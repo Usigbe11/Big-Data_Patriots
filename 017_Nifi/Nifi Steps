@@ -1,0 +1,7 @@
+1. Create a Get File Processor
+2. Fill in the file path, to the file you wish to store to hive
+3. Create a CSV To Avro Processor
+4. Add the schema for the conversion
+5. Add a Hive Stremaing Processor
+6. Fill in the locations of the hdfs-site.xml and core-site.xml as well as the Metastore URI and the hive-site.xml
+7.Connect the 3 processors and run them

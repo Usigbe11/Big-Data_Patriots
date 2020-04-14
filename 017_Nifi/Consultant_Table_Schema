@@ -1,0 +1,32 @@
+{
+  "type" : "record",
+  "name" : "Consultant_Table_Schema",
+  "namespace" : "com.miguno.avro",
+  "fields" :[
+	      {
+    		"name" : "id",
+    		"type" : "string"
+  	      }, 
+  	      {
+    		"name" : "name",
+    		"type" : "string"
+  	      }, 
+  	      {
+    		"name" : "email",
+    		"type" : "string"
+  	      }, 
+  	      {
+    		"name" : "phone",
+    		"type" : "string"
+  	      },
+  	      {
+    		"name" : "city",
+    		"type" : "string"
+  	      },
+  	      {
+    		"name" : "department_name",
+    		"type" : "string"
+  	      }
+	    ] 
+}
+© 2020 GitHub, Inc.

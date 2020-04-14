@@ -1,0 +1,73 @@
+[
+ {
+	"id" : "1",
+	"department_name" : "Cyber Security",
+	"consultant_id" : "CS01",
+	"manager" : "Usi",
+	"tech_manager," : "Rahib"	
+ },
+ {
+	"id" : "2",
+	"department_name" : "Sales",
+	"consultant_id" : "SLS01",
+	"manager" : "Aashish",
+	"tech_manager," : "Oscar"	
+ },
+ {
+	"id" : "3",
+	"department_name" : "Personnel",
+	"consultant_id" : "PL01",
+	"manager" : "Rahib",
+	"tech_manager," : "Praket"	
+ },
+ {
+	"id" : "4",
+	"department_name" : "Human Resources",
+	"consultant_id" : "HR01",
+	"manager" : "Israel",
+	"tech_manager," : "Alexis"	
+ },
+ {
+	"id" : "5",
+	"department_name" : "Networking",
+	"consultant_id" : "N01",
+	"manager" : "Cesar",
+	"tech_manager," : "Jessica"	
+ },
+ {
+	"id" : "6",
+	"department_name" : "Big Data",
+	"consultant_id" : "BD01",
+	"manager" : "Michael",
+	"tech_manager," : "Tamaratonyor"	
+ },
+ {
+	"id" : "7",
+	"department_name" : "Sports and Fitness",
+	"consultant_id" : "SF01",
+	"manager" : "Guardiola",
+	"tech_manager," : "Messi"	
+ },
+ {
+	"id" : "8",
+	"department_name" : "Procurement",
+	"consultant_id" : "P01",
+	"manager" : "Praketa",
+	"tech_manager," : "Cesar"	
+ },
+ {
+	"id" : "9",
+	"department_name" : "Cloud Solutions",
+	"consultant_id" : "CS01",
+	"manager" : "Oscar",
+	"tech_manager," : "Usi"	
+ },
+ {
+	"id" : "10",
+	"department_name" : "Cleaning",
+	"consultant_id" : "C01",
+	"manager" : "Cesar",
+	"tech_manager," : "Jessica"	
+ }
+
+]
