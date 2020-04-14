@@ -1,0 +1,31 @@
+TwitterAgent.sources = Twitter 
+TwitterAgent.channels = MemChannel 
+TwitterAgent.sinks = AVRO
+  
+# Describing/Configuring the source
+ 
+TwitterAgent.sources.Twitter.type = org.apache.flume.source.twitter.TwitterSource
+TwitterAgent.sources.Twitter.consumerKey=uX0TWqkx0okYEjjqLzxIx6mD6
+TwitterAgent.sources.Twitter.consumerSecret=rzHIs3TMJnADbZNvdGU7LQUo0kPxPISq3RGSLfqcBip39X5END
+TwitterAgent.sources.Twitter.accessToken=559516596-yDA9xqOljo4CV32wSnqsx2BXh4RBIRKFxZGSZrPC
+TwitterAgent.sources.Twitter.accessTokenSecret=zDxePILZitS5tIWBhre0GWqps0FIj9OadX8RZb6w8ZCwz
+TwitterAgent.sources.Twitter.keywords= coronavirus, COVID-19, COVID19
+
+# Describing/Configuring the Channel 
+
+TwitterAgent.channels.MemChannel.type=memory
+TwitterAgent.channels.MemChannel.capacity=10000
+TwitterAgent.channels.MemChannel.transactionCapacity=1000
+
+# Describing/Configuring the sink 
+
+TwitterAgent.sinks.AVRO.type = avro
+TwitterAgent.sinks.AVRO.hostname = localhost
+TwitterAgent.sinks.AVRO.port = 6669
+# Bind the source and sink to the channe
+
+TwitterAgent.sources.Twitter.channels = MemChannel
+TwitterAgent.sinks.AVRO.channel = MemChannel
+
+
+#$flume-ng agent --name TwitterAgent --conf-file flume-twitter-spark -Dflume.root.logger=INFO,console
