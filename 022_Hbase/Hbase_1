@@ -1,0 +1,20 @@
+## Load Consultant.csv file into Hbase Table
+
+## Create the table
+Syntax: create '<table name>' , '<column-family1>' , '<column-family2>'
+
+create 'Consultant','Personal_Information','Professional_Information'
+
+## Insert Values into the Table
+Syntax: put '<HBase_table_name>', 'row_key', '<colfamily:colname>', '<value>'
+
+put 'Consultant','1','Personal_Information:name','Rahib'
+put 'Consultant','1','Personal_Information:phone','12345'
+put 'Consultant','1','Personal_Information:city','Marietta'
+
+put 'Consultant','1','Professional_Information:id','01'
+put 'Consultant','1','Professional_Information:email','rahib@enhanceit.com'
+put 'Consultant','1','Professional_Information:department','Big Data'
+
+
+
